@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+body {
+  background-color: black;
+}
+
+.ott-heading {
+  text-align: center;
+}
+
+.ott-heading video {
+  width: 40%;
+}
+
+.ott-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ott-flex .ott-left {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.ott-flex .ott-left h1 {
+  font-size: 48px;
+  font-family: 'Merriweather', serif;
+  color: red;
+}
+
+.ott-flex .ott-left h3 {
+  text-align: center;
+  font-size: 120px;
+  font-family: 'Merriweather', serif;
+  color: red;
+}
+
+.ott-flex .ott-right {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.ott-flex .ott-right h1 {
+  font-size: 48px;
+  font-family: 'Merriweather', serif;
+  color: red;
+}
+
+.ott-flex .ott-right h3 {
+  text-align: center;
+  font-size: 120px;
+  font-family: 'Merriweather', serif;
+  color: red;
+}
+
+#images .images-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#images .images-flex .images-left {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#images .images-flex .images-left img {
+  width: 100%;
+}
+
+#images .images-flex .images-right {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#images .images-flex .images-right img {
+  width: 100%;
+}
+
+#images img {
+  width: 100%;
+}
+/*# sourceMappingURL=Netflix.css.map */

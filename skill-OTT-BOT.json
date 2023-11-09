@@ -1,0 +1,981 @@
+{
+  "intents": [
+    {
+      "intent": "AmazonPrime",
+      "examples": [
+        {
+          "text": "amazon"
+        },
+        {
+          "text": "Amazon Prime"
+        },
+        {
+          "text": "amazonprime"
+        },
+        {
+          "text": "prime"
+        },
+        {
+          "text": "prime video"
+        },
+        {
+          "text": "primevideo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ending",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "k"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "ok bye"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "tq"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "hai"
+        },
+        {
+          "text": "haii"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "hlo"
+        },
+        {
+          "text": "namaste"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HotsarDisneyMovies",
+      "examples": [
+        {
+          "text": "disney movie"
+        },
+        {
+          "text": "Disney movies"
+        },
+        {
+          "text": "disneymovies"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hotstar",
+      "examples": [
+        {
+          "text": "disnep+ hotstar"
+        },
+        {
+          "text": "Disney+hostar"
+        },
+        {
+          "text": "disney hotstar"
+        },
+        {
+          "text": "Disney+ Hotstar"
+        },
+        {
+          "text": "Hot"
+        },
+        {
+          "text": "hotstar"
+        },
+        {
+          "text": "star"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HotstarWebseries",
+      "examples": [
+        {
+          "text": "Disney webseries"
+        },
+        {
+          "text": "disneywebseries"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Netflix",
+      "examples": [
+        {
+          "text": "flix"
+        },
+        {
+          "text": "net"
+        },
+        {
+          "text": "Netflix"
+        },
+        {
+          "text": "nf"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixAction",
+      "examples": [
+        {
+          "text": "action"
+        },
+        {
+          "text": "actn"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixBasedonRating",
+      "examples": [
+        {
+          "text": "based on imdb rating"
+        },
+        {
+          "text": "basedonimdbrating"
+        },
+        {
+          "text": "based on rating"
+        },
+        {
+          "text": "based onrating"
+        },
+        {
+          "text": "basedon rating"
+        },
+        {
+          "text": "imdb"
+        },
+        {
+          "text": "rating"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixComedy",
+      "examples": [
+        {
+          "text": "cmdy"
+        },
+        {
+          "text": "comdy"
+        },
+        {
+          "text": "comedy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixCrime",
+      "examples": [
+        {
+          "text": "crime"
+        },
+        {
+          "text": "crme"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixGenre",
+      "examples": [
+        {
+          "text": "Based on genre"
+        },
+        {
+          "text": "basedon genre"
+        },
+        {
+          "text": "basedongenre"
+        },
+        {
+          "text": "genre"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixHighRated",
+      "examples": [
+        {
+          "text": "high"
+        },
+        {
+          "text": "highly rated"
+        },
+        {
+          "text": "high rated"
+        },
+        {
+          "text": "highrated"
+        },
+        {
+          "text": "high rated movies"
+        },
+        {
+          "text": "highratedmovies"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixHorror",
+      "examples": [
+        {
+          "text": "horor"
+        },
+        {
+          "text": "horror"
+        },
+        {
+          "text": "horrorr"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "netflixImdbrating",
+      "examples": [
+        {
+          "text": "based on imdb rating"
+        },
+        {
+          "text": "basedon imdb rating"
+        },
+        {
+          "text": "imdb"
+        },
+        {
+          "text": "imdb rating"
+        },
+        {
+          "text": "imdbrating"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixLowRated",
+      "examples": [
+        {
+          "text": "low"
+        },
+        {
+          "text": "low rated"
+        },
+        {
+          "text": "lowrated"
+        },
+        {
+          "text": "low rated movies"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixMediumRated",
+      "examples": [
+        {
+          "text": "average"
+        },
+        {
+          "text": "medium"
+        },
+        {
+          "text": "medium rated"
+        },
+        {
+          "text": "mediumrated"
+        },
+        {
+          "text": "medium rated movies"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixRomance",
+      "examples": [
+        {
+          "text": "erotic"
+        },
+        {
+          "text": "love"
+        },
+        {
+          "text": "rmance"
+        },
+        {
+          "text": "rmnce"
+        },
+        {
+          "text": "romance"
+        },
+        {
+          "text": "sex"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NetflixScienceFiction",
+      "examples": [
+        {
+          "text": "ciencefiction"
+        },
+        {
+          "text": "fiction"
+        },
+        {
+          "text": "science"
+        },
+        {
+          "text": "Science fiction"
+        },
+        {
+          "text": "sciencefiction"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PrimeMovies",
+      "examples": [
+        {
+          "text": "movie"
+        },
+        {
+          "text": "movies"
+        },
+        {
+          "text": "mvie"
+        },
+        {
+          "text": "prime movies"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PrimeTVshows",
+      "examples": [
+        {
+          "text": "shows"
+        },
+        {
+          "text": "tv"
+        },
+        {
+          "text": "tv shows"
+        },
+        {
+          "text": "TVshows"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hello",
+          "synonyms": [
+            "halo",
+            "hellloo",
+            "HELLO",
+            "helo",
+            "hlo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hi",
+          "synonyms": [
+            "aii",
+            "hai",
+            "haii",
+            "hii"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1628861599678",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "NetflixRomance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A California Christmas\nA Christmas Prince\nA Christmas Prince: The Royal Baby\nA Christmas Prince: The Royal Wedding\nAlex Strangelove\nAll the Bright Places\nAlways Be My Maybe\nCaught by a Wave\nChristmas Inheritance\nCrazy About Her\nDesperados\nElisa & Marcela\nFalling Inn Love\nGeez & Ann\nGinny Weds Sunny\nThe Kissing Booth 2\nThe Knight Before Christmas\nThe Last Paradiso\nThe Lovebirds\nThe Perfect Date\nThe Princess Switch\nThe Princess Switch: Switched Again\nTo All the Boys I've Loved Before\nTo All the Boys: Always and Forever\nTo All the Boys: P.S. I Still Love You\nTo Each, Her Own\nTramps\nUnder the Riccione Sun\nWhen We First Met\nWhipped\nYou've Got This"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixRomance",
+      "dialog_node": "node_10_1628853337093",
+      "previous_sibling": "node_8_1628853467621"
+    },
+    {
+      "type": "standard",
+      "title": "PrimeTVshows",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Popular TV shows with Number of seasons:\nAn Unknown Enemy-1\nBang Baaja Baaraat-1\nBest of AIB-1\nBosch-6\nBreathe-1\nCalifornication-7\nDance Academy-3\nDeutschland-1\nDexter-8\nDowntown Abbey-6\nEIC vs The World-1\nFleabag-2\nFlesh and Bone-1\nFringe-5\nGoliath-3\nGood Girls Revolt-1\nHitoshi Matsumoto Presents Documental-3\nHostel Daze-1\nInside Edge-2\nInto the Badlands-3\nLife-2\nMad Men-7\nMade in Heaven-1\nMirzapur-2\nModern Love-1\nMozart in the Jungle-4\nMr. Bean-1\nMr. Robot-3\nMunki and Trunk-1\nPatriot-2\nPerson of Interest-5\nPreacher-4\nRay Donovan-6\nSeinfeld-9\nShameless-10\nSneaky Pete-3\nStartup-3\nSuits-8\nSupernatural-15\nThe Boys-2\nThe Exorcist-2\nThe Family Man-1\nThe Forgotten Army- Azaadi ke Liye-1\nThe Good Wife-7\nThe Grand Tour-4\nThe Handmaid's Tale-3\nThe Man in the High Castle-4\nThe Marvelous Mrs. Maisel-3\nThe Mentalist-7\nThe Night Manager-1\nThe Originals-5\nThe Test: A New Era for Australia's Team-1\nThis is Us-3\nTokyo Girl-1\nTom Clancy's Jack Ryan-2\nTrial and Error-2\nUndone-1\nUpload-1"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#PrimeTVshows",
+      "dialog_node": "node_10_1628857998926",
+      "previous_sibling": "node_6_1628686406439"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixOptions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Select a Genre from the following:\nAction\nComedy\nCrime\nHorror\nRomance\nScience Fiction"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixGenre",
+      "dialog_node": "node_1_1628850571856",
+      "previous_sibling": "node_1_1628855056772"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixLowRated",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "After the Raid\nAll Because of You\nDark Forces\nDeath Note\nDrive\nEnter the Anime\nFatal Affair\nGhost Stories\nHello Privilege. It's Me, Chelsea\nJust Say Yes\nKaali Khuhi\nLeyla Everlasting\nMercy\nParadox\nSardar Ka Grandson\nSearching for Sheela\nSecret Obsession\nSeriously Single\nSextuplets\nThe App\nThe Call\nThe Girl on the Train\nThe Last Days of American Crime\nThe Last Thing He Wanted\nThe Misadventures of Hedi and Cokeman\nThe Open House\nThunder Force\nWhat Happened to Mr. Cha?\nWhipped"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixLowRated",
+      "dialog_node": "node_1_1628855056772",
+      "previous_sibling": "node_8_1628854890831"
+    },
+    {
+      "type": "standard",
+      "title": "greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I can suggest you movies from various OTT platforms. Select one of the OTT platform to continue: \nNetflix\nAmazon Prime\nHotstar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greeting",
+      "dialog_node": "node_3_1628683870226",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixBasedonIMDBrating",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Select a category from the following:\nHigh Rated Movies\nMedium Rated Movies\nLow Rated Movies"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixBasedonRating",
+      "dialog_node": "node_3_1628853933501",
+      "previous_sibling": "node_4_1628685767627"
+    },
+    {
+      "type": "standard",
+      "title": "Netflix",
+      "output": {
+        "generic": [
+          {
+            "title": "NETFLIX",
+            "source": "https://variety.com/wp-content/uploads/2020/05/netflix-logo.png",
+            "description": "Offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Select a category from the following:\nBased on Genre\nBased on IMDB rating"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Netflix",
+      "dialog_node": "node_4_1628685767627",
+      "previous_sibling": "node_9_1628684161017"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixAction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "6 Underground\nAll Because of You\nCoffee & Kareem\nDrive\nEarth and Blood\nExtraction\nGame Over, Man!\nHow It Ends\nOkja\nOutside the Wire\nPoint Blank\nPolar\nSentinelle\nSpectral\nSpenser Confidential"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixAction",
+      "dialog_node": "node_4_1628852405562",
+      "previous_sibling": "node_9_1628852607049"
+    },
+    {
+      "type": "standard",
+      "title": "Hotstar",
+      "output": {
+        "generic": [
+          {
+            "title": "Disney+ Hotstar",
+            "source": "https://www.gizbot.com/img/2020/09/xdisneyhotstar-1600864430.jpg.pagespeed.ic.eJaq_mLsYk.jpg",
+            "description": " India's largest premium streaming platform with more than 100000 hours of drama and movies in 17 languages",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Select a category from the following to continue:\nDisney Movies\nDisney Web Series"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Hotstar",
+      "dialog_node": "node_5_1628687122605",
+      "previous_sibling": "node_8_1628857806507"
+    },
+    {
+      "type": "standard",
+      "title": "Amazon Prime",
+      "output": {
+        "generic": [
+          {
+            "title": "Prime Video",
+            "source": "https://i0.wp.com/www.musetv.net/wp-content/uploads/2020/05/primevideo-seo-logo._CB1544649803_.png",
+            "description": "Explore popular movies and TV shows, award-winning Amazon Originals, exclusives and live events",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Select a category from the following to continue:\nMovies\nTv shows"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#AmazonPrime",
+      "dialog_node": "node_6_1628686406439",
+      "previous_sibling": "node_4_1628852405562"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixCrime",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1922\nEl Camino: A Breaking Bad Movie\nFerry\nLost Girls\nOn My Skin\nRogue City\nShimmer Lake\nSoni\nThe Crimes That Bind\nThe Highwaymen\nThe Irishman\nThe Outsider\nÒlòt?ré"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixCrime",
+      "dialog_node": "node_6_1628853137850",
+      "previous_sibling": "node_8_1628853216134"
+    },
+    {
+      "type": "standard",
+      "title": "HotstarMovies",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Popular Disney+ Movies:\nA Celebration of the Music from Coco\nAfrican Cats\nAladdin\nAll in a Nutshell\nApollo: Missions to the Moon\nAvatar\nAvengers: Endgame\nBao\nBearly Asleep\nBeauty and the Beast\nBefore the Flood\nBig Hero 6\nBreaking2\nBurn-E\nCaptain America: Civil War\nCaptain America: The Winter Soldier\nClock Cleaners\nCoco\nDay & Night\nDestino\nDiana: In Her Own Words\nDisney's Newsies: The Broadway Musical!\nDoctor Strange\nDolphin Reef\nDrain the Great Lakes\nEmpire of Dreams: The Story of the 'Star Wars' Trilogy\nExpedition Mars\nFantasia\nFinding Nemo\nFlowers and Trees\nFor the Birds\nFrank and Ollie\nFree Solo\nFrozen\nFuzzbucket\nGeri's Game\nGuardians of the Galaxy\nGuardians of the Galaxy Vol. 2\nHigh School Musical: The Musical: The Series: The Special\nIce Age\nIn the Footsteps of Elephant\nInside Out\nInto the Canyon\nInto the Okavango\nIron Man\nThor: Ragnarok\nThree Little Pigs\nTogo\nToy Story\nToy Story 2\nToy Story 3\nToy Story 4\nTru Confessions\nUgly Duckling\nUp\nWALL·E\nWaking Sleeping Beauty\nWho Framed Roger Rabbit\nWreck-It Ralph\nZootopia"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#HotsarDisneyMovies",
+      "dialog_node": "node_6_1628860846567",
+      "previous_sibling": "node_8_1628860984047"
+    },
+    {
+      "type": "standard",
+      "title": "Ending",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice to meet you. Have a nice day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Ending",
+      "dialog_node": "node_7_1628861599678",
+      "previous_sibling": "node_6_1628860846567"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixHorror",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1922\nApostle\nBulbbul\nCadaver\nCam\nCargo\nDeath Note\nEli\nGerald's Game\nGhost Lab\nGhost Stories\nI Am the Pretty Thing That Lives in the House\nIn the Tall Grass\nLittle Evil\nNobody Sleeps in the Woods Tonight\nRattlesnake\nThe Babysitter\nThe Babysitter: Killer Queen\nThe Open House\nThe Perfection\nThings Heard & Seen\nVampires vs. the Bronx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixHorror",
+      "dialog_node": "node_8_1628853216134",
+      "previous_sibling": "node_10_1628853337093"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixScienceFiction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ARQ\nAltered Carbon: Resleeved\nBlame!\nExtinction\nIO\nInvader Zim: Enter the Florpus\nMute\nOutside the Wire\nOxygen\nRim of the World\nSee You Yesterday\nSpace Sweepers\nSpectral\nTAU\nThe App\nThe Cloverfield Paradox\nThe Discovery\nThe Midnight Sky\niBoy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixScienceFiction",
+      "dialog_node": "node_8_1628853467621",
+      "previous_sibling": "node_1_1628850571856"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixHighRated",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "13th\nA Secret Love\nAnima\nAthlete A\nBarbra: The Music, The Mem'ries, The Magic!\nBeasts of No Nation\nBen Platt: Live from Radio City Music Hall\nBlackpink: Light Up the Sky\nBrene Brown: The Call to Courage\nChasing Coral\nCity of Joy\nCrip Camp: A Disability Revolution\nCuba and the Cameraman\nDancing with the Birds\nDavid Attenborough: A Life on Our Planet\nSpringsteen on Broadway\nStruggle: The Life and Lost Art of Szukaiski\nTaylor Swift: Reputation Stadium Tour\nTell Me Who I Am\nThe Bleeding Edge\nThe Irishman\nThe Ivory Game\nThe Social Dilemma\nThe Three Deaths of Marisela Escobedo\nThe Trial of the Chicago 7\nThe Two Popes\nThe White Helmets\nWhat Happened, Miss Simone?\nWinter on Fire: Ukraine's Fight for Freedom\nYeh Ballet"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixHighRated",
+      "dialog_node": "node_8_1628854465892",
+      "previous_sibling": "node_3_1628853933501"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixMediumRated",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "13th: A Conversation with Oprah Winfrey & Ava DuVernay\n15 August\n1922\n22 July\n5 Star Christmas\n6 Balloons\n6 Underground\n7 años\nA 3 Minute Hug\nA Babysitter's Guide to Monster Hunting\nA California Christmas\nA Christmas Prince\nBad Trip\nBaggio: The Divine Ponytail\nBarbra: The Music, The Mem'ries, The Magic!\nBarry\nBeats\nBecoming\nBeen So Long\nBelow Zero\nBenji\nBetween Two Ferns: The Movie\nBigflo & Oil: Hip Hop Frenzy\nBiggie: I Got a Story to Tell\nBikram: Yogi, Guru, Predator\nWar Machine\nWe Are One\nWe Can Be Heroes\nWhat Did Jack Do?\nWhat We Wanted\nWhat Would Sophia Loren Do?\nWheelman\nWhen We First Met\nWho Would You Take to a Deserted Island?\nWhy Did You Kill Me?\nWin It All\nWine Country\nWork It\nXOXO\nYes Day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixMediumRated",
+      "dialog_node": "node_8_1628854890831",
+      "previous_sibling": "node_8_1628854465892"
+    },
+    {
+      "type": "standard",
+      "title": "PrimeMovies",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Popular Movies:\nA Dark Room\nAakaasam Nee Haddhu Ra (Telugu)\nAlo\nAruvi\nAsuran\nAtanka\nBelaseshe\nByomkesh Bakshi\nC/O Kancharapalem\nCaesarea\nChal Man Jeetva Jaiye\nChhatrapati Shasan\nChicken Biryani\nDark\nDrishyam 2\nEdge of Obedience\nFan\nFight Club\nHirak Rajar Deshe\nKaali\nKumbalangi Nights\nLiving with Wolves\nMahanati (Malayalam)\nMahanati (Telugu)\nMaunn\nMumbai Apli Ahe\nNadigaiyar Thilagam (Tamil)\nNatsamrat\nParasite\nPariyerum Perumal BA.BL\nPeranbu (Malayalam)\nPeranbu (Tamil)\nSoorarai Pottru (Kannada)\nSoorarai Pottru (Malayalam)\nSoorarai Pottru (Tamil)\nSri Bharatha Baahubali\nThe Caravan Film\nThis Little Land of Mines\nUndga\nUntamed Romania\nWho Owns Water\nZakir Khan: Haq Se Single"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#PrimeMovies",
+      "dialog_node": "node_8_1628857806507",
+      "previous_sibling": "node_10_1628857998926"
+    },
+    {
+      "type": "standard",
+      "title": "HotstarWebSeries",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Popular Disney+ Web series:\nAdventures of the Gummi Bears\nAgent Carter\nAmerica's National Parks\nAmphibia\nBluey\nBoy Meets World\nBrain Games\nChip 'n' Dale Rescue Rangers\nContinent 7: Antarctica\nDarkwing Duck\nDog Whisperer with Cesar Millan\nDr. Oakley, Yukon Vet\nDr. T, Lone Star Vet\nDrain the Oceans\nDuckTales\nKingdom of the White Wolf\nLegend of the Three Caballeros\nLego Star Wars: Droid Tales\nLego Star Wars: The Freemaker Adventures\nLego Star Wars: The Yoda Chronicles\nLife Below Zero\nLost Cities with Albert Lin\nMickey Mouse\nMilo Murphy's Law\nMuppet Moments\nOne Strange Rock\nOut of the Box\nPhineas and Ferb\nPrimal Survivor\nRecess\nSpider-Man: The Animated Series\nStar Wars Rebels\nStar Wars: The Clone Wars\nStar vs. the Forces of Evil\nTRON: Uprising\nTaleSpin\nTangled: The Series\nThe Adventures of Spin and Marty\nThe Avengers: Earth's Mightiest Heroes\nThe Imagineering Story\nThe Incredible Dr. Pol\nThe Mandalorian\nThe Mickey Mouse Club\nThe New Adventures of Winnie the Pooh\nThe Simpsons\nThe World According to Jeff Goldblum\nUnlikely Animal Friends\nWolverine and the X-Men\nX-Men: Evolution\nX-Men: The Animated Series\nYear Million"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#HotstarWebseries",
+      "dialog_node": "node_8_1628860984047",
+      "previous_sibling": "node_5_1628687122605"
+    },
+    {
+      "type": "standard",
+      "title": "ott platforms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NetFlix"
+              },
+              {
+                "text": "Amazon Prime"
+              },
+              {
+                "text": "Hotstar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_9_1628684161017",
+      "previous_sibling": "node_3_1628683870226"
+    },
+    {
+      "type": "standard",
+      "title": "NetflixComedy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "15 August\nA California Christmas\nA Christmas Prince\nA Futile and Stupid Gesture\nA Very Murray Christmas\nAlex Strangelove\nAlways Be My Maybe\nArlo the Alligator Boy\nBad Trip\nBetween Two Ferns: The Movie\nBomb Scared\nBrahman Naman\nCandy Jar\nChopsticks\nComo Caído del Cielo\nLong Live Brij Mohan\nLove Wedding Repeat\nLove per Square Foot\nLove, Guaranteed\nLudo\nMaska\nMurder Mystery\nNappily Ever After\nOperation Christmas Drop\nOtherhood\nPaddleton\nPagglait\nPorta dos Fundos: The Last Hangover\nRajma Chawal\nRich in Love\nRocko's Modern Life: Static Cling\nThe Sleepover\nThe Willoughbys\nThe Wrong Missy\nTo All the Boys I've Loved Before\nTo All the Boys: Always and Forever\nTo All the Boys: P.S. I Still Love You\nTrue Memoirs of an International Assassin\nUnicorn Store\nVampires vs. the Bronx\nWar Machine\nWhen We First Met\nWin It All\nWine Country\nWork It\nYes Day\nYou've Got This"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NetflixComedy",
+      "dialog_node": "node_9_1628852607049",
+      "previous_sibling": "node_6_1628853137850"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello Cinephile!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "OTT-BOT",
+  "language": "en",
+  "description": ""
+}
